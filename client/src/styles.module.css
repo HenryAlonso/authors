@@ -1,0 +1,17 @@
+.content{
+    width: 50%;
+    margin: 40px auto;
+    padding: 15px;
+}
+.purple{
+    color: rgb(194, 51, 246);
+}
+.form{
+    padding: 15px;
+}
+.button{
+    margin-top: 15px;
+}
+.button .left{
+    margin-left: 10px;
+}
