@@ -22,8 +22,6 @@ const AuthorForm = () => {
                 navigate("/");
             })
             .catch(err => {
-                // console.log(err.response);
-                // setErrors(err.response.data.err.errors);
                 console.log(err.response.data.err.errors);
                 setErrors(err.response.data.err.errors);
             });
